@@ -1,0 +1,145 @@
+body {
+    border-color: whitesmoke;
+ }
+
+.header {
+    padding: 35px;
+    font-family: arial ;
+    background-color: rgb(83, 81, 81);
+    color: #a3e6fd; 
+}
+
+.header div {
+   padding-top: 15px;margin-right:15px;
+   float: right;
+   font-size: 25px ;
+} 
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+
+
+
+@media screen and (max-width:768px ) 
+{ .navigation { 
+    flex-direction: column;
+}
+    
+}
+
+.navigation a { 
+    text-decoration: underline;
+    display: block;
+    padding: 10px; 
+    color: #ffffff;
+
+}
+
+h2 { 
+    
+}
+
+
+a {
+    color: black ;
+    text-decoration: underline;
+}
+
+.About-me { 
+    margin-bottom: 100px;
+    padding: 100px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #969696;
+    color: #ffffff;
+}
+
+.About-me img { 
+    max-height: 225px;
+    float:left ;
+ 
+ 
+}
+
+.About-me p {
+   
+   
+}
+
+.Work { 
+    margin-bottom: 200px;
+    padding: 100px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #969696;
+    color: #ffffff;
+}
+
+.Work h2 {
+    text-align: center;
+}
+
+.Work img {
+    max-height: 200px;
+}
+
+.container {
+ 
+
+} 
+
+.overlay {
+    position: absolute; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.Contact-me {
+    font-family: Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #969696;
+    
+    
+
+}
+
+.Contact-me a {
+    text-align: right;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.Contact-me div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
